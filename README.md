@@ -53,12 +53,14 @@ You can customize the preprocessing pipeline based on your dataset and requireme
 
 ## Training
 
-To train the chatbot on your dataset, follow these steps:
+To train the chatbot on the dataset (Stnford Question Answering Dataset), follow these steps:
 
-1. Prepare your dataset in the required format.
-2. Use the provided training script or customize it for your specific dataset.
-3. Train the model using the selected hyperparameters.
-4. Evaluate the model's performance on a validation dataset.
+1. Mount google drive and upload the .json file (located at: https://www.kaggle.com/datasets/stanfordu/stanford-question-answering-dataset)
+2. Prepare dataset in the required format.
+3. Use the provided script or customize it for your specific dataset needs.
+4. Perform an EDA to understand the data.
+5. Train the model. 
+6. Evaluate the model's performance on a validation dataset.
 
 Detailed instructions for training are available in the training documentation.
 
