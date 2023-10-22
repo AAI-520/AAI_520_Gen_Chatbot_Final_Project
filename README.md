@@ -1,4 +1,4 @@
-# Chatbot with GPT-2 for Multi-Turn Conversations
+# Chatbot with BERT (Bidirectional Encoder Representations from Transformers) model for question-answering for Multi-Turn Conversations
 
 This repository contains code for building a chatbot using the BERT (Bidirectional Encoder Representations from Transformers) model for question-answering that can handle multi-turn conversations, adapt to context, and answer questions on various topics. The chatbot is designed to generate responses based on user queries and context.
 
