@@ -1,6 +1,6 @@
 # Chatbot with GPT-2 for Multi-Turn Conversations
 
-This repository contains code for building a chatbot using the GPT-2 model that can handle multi-turn conversations, adapt to context, and answer questions on various topics. The chatbot is designed to generate responses based on user queries and context.
+This repository contains code for building a chatbot using the BERT (Bidirectional Encoder Representations from Transformers) model for question-answering that can handle multi-turn conversations, adapt to context, and answer questions on various topics. The chatbot is designed to generate responses based on user queries and context.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ This repository contains code for building a chatbot using the GPT-2 model that 
 
 ## Introduction
 
-The chatbot is built using the GPT-2 language model and can be used for various natural language processing tasks, including answering questions, providing information, and engaging in conversations. This README provides an overview of the project, including how to install, use, and train the chatbot.
+The chatbot is built using the BERT (Bidirectional Encoder Representations from Transformers) model for question-answering language model and can be used for various natural language processing tasks, including answering questions, providing information, and engaging in conversations. This README provides an overview of the project, including how to install, use, and train the chatbot.
 
 ## Features
 
@@ -36,6 +36,7 @@ To get started with the chatbot, follow these steps:
 
 
 2. Install the required dependencies:
+   !pip install transformers
 
 
 
@@ -61,12 +62,14 @@ To train the chatbot on the dataset (Stnford Question Answering Dataset), follow
 4. Perform an EDA to understand the data.
 5. Train the model. 
 6. Evaluate the model's performance on a validation dataset.
+7. Functional Test in the colab where user inputs "context" and "question" and to recive a reply from the model prediction ("answer").
 
 Detailed instructions for training are available in the training documentation.
 
 ## Evaluation
 
-To evaluate the chatbot's performance, you can use various metrics such as BLEU score, perplexity, and user feedback. Additionally, you can conduct user studies to assess the chatbot's effectiveness in real-world scenarios.
+To evaluate the chatbot's performance, you can use various metrics such as F1 & BLEU score, and user feedback. Additionally, you can conduct user studies to assess the chatbot's effectiveness in real-world scenarios.
+F1 & BLEU Scores
 
 ## Contributing
 
