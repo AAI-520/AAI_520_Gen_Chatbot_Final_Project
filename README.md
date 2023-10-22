@@ -1,4 +1,5 @@
 # Chatbot with BERT (Bidirectional Encoder Representations from Transformers) model for question-answering for Multi-Turn Conversations
+![gen](https://github.com/AAI-520/AAI_520_Gen_Chatbot_Final_Project/assets/124844580/68840e4f-aa18-4421-a67d-b6894f6ed100)
 
 This repository contains code for building a chatbot using the BERT (Bidirectional Encoder Representations from Transformers) model for question-answering that can handle multi-turn conversations, adapt to context, and answer questions on various topics. The chatbot is designed to generate responses based on user queries and context.
 
