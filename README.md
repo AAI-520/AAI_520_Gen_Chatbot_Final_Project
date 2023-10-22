@@ -41,7 +41,7 @@ To get started with the chatbot, follow these steps:
 
 
 
-This will start an interactive session where you can input questions or statements, and the chatbot will generate responses based on the GPT-2 model.
+This will start an interactive session where you can input questions or statements, and the chatbot will generate responses based on the BERT (Bidirectional Encoder Representations from Transformers) model for question-answering model.
 
 ## Preprocessing
 
