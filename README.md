@@ -36,6 +36,7 @@ To get started with the chatbot, follow these steps:
 
 
 2. Install the required dependencies:
+   #@title Install Pre-req's
    !pip install transformers
 
 
